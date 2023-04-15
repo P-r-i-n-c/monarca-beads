@@ -1,18 +1,19 @@
-
 body {
   background-image: linear-gradient(
     to bottom,
     #e8849e 0%,
-    #e8849e 50%,
-    #fffefe 50%,
-    #fffefe 100%
+    #e8849e 56%,
+    #fbeee6 60%,
+    #fbeee6 100%
   );
-  height: 100vh;
+  height: auto;
   font-family: "Roboto", sans-serif;
 }
 
-img {
-  width: 300px;
+.monarca-logo {
+  width: 410px;
+  height: 300px;
+  padding-bottom: 45px;
 }
 
 li {
@@ -22,3 +23,111 @@ li {
 a {
   text-decoration: none;
 }
+
+a:hover {
+  color: #e60073;
+}
+
+.header {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.monarca-title {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+.links {
+  display: flex;
+  font-size: 18px;
+  gap: 10px;
+}
+
+a {
+  color: #eef1f5;
+}
+
+.up-part {
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title-info {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #ffffff;
+  padding-bottom: 20px  ;
+}
+
+.description {
+  color: #eef1f5;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+button {
+  background-color: #e60073;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #ff2d8f;
+
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.collection {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #ff2d8f;
+  margin-bottom: 32px;
+  text-align: center;
+
+
+}
+
+.object {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  background-color: #fff;
+  border: 3px solid #d6d6d6;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #d6d6d6;
+}
+
+.text {
+  text-align: center ;
+  color: #e8849e;
+  font-weight: bold;
+}
+
