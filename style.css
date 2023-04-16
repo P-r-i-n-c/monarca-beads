@@ -2,8 +2,8 @@ body {
   background-image: linear-gradient(
     to bottom,
     #e8849e 0%,
-    #e8849e 56%,
-    #fbeee6 60%,
+    #e8849e 48%,
+    #fbeee6 52%,
     #fbeee6 100%
   );
   height: auto;
@@ -12,8 +12,8 @@ body {
 
 .monarca-logo {
   width: 410px;
-  height: 300px;
-  padding-bottom: 45px;
+  height: 350px;
+  padding-bottom: 40px;
 }
 
 li {
@@ -131,3 +131,40 @@ button:hover {
   font-weight: bold;
 }
 
+.newsletter-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8849e;
+  margin-top: 60px;
+  border: 3px solid #e8849e;
+  border-radius: 10px; /* add rounded corners for a polished look */
+  width: 600px;
+  height: 100px;
+  margin-left: 400px;
+  margin-right: 400px;
+  gap: 20px;
+
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-box {
+  font-weight: bolder;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 10px;
+  
+}
+
+.description-box {
+  color: #eef1f5;
+}
+
+.sign-up-box {
+  border: 3px solid #e8849e;
+  border-radius: 10px; /* add rounded corners for a polished look */
+}
